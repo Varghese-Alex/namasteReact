@@ -1,0 +1,29 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "Namaste React Course",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Varghese-Alex/namasteReact.git"
+  },
+  "keywords": [],
+  "author": "Varghese Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Varghese-Alex/namasteReact/issues"
+  },
+  "homepage": "https://github.com/Varghese-Alex/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
