@@ -34,6 +34,12 @@
   justify-content: center;
 }
 
+.shimmer-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .restaurant-card {
   width: 200px;
   height: 350px;
@@ -43,6 +49,14 @@
   background-color: darkgray;
 }
 
+.shimmer-card {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
 .restaurant-card:hover {
   /* background-color: lightgray; */
   cursor: pointer;
@@ -50,7 +64,7 @@
 }
 
 .restaurant-image {
-  height: 150px;
+  height: 175px;
   width: 100%;
 }
 
@@ -68,4 +82,18 @@
   background-color: lightgray;
   border: none;
   cursor: pointer;
+}
+
+.login-btn {
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+
+.login-btn:hover {
+  background-color: darkgray;
 }
